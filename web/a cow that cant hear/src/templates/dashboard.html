@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding-top: 40px;
+            margin: 0;
+        }
+
+        .dashboard-box {
+            background-color: #ffffff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #555;
+        }
+
+        form {
+            margin-top: 15px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .results {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-radius: 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-box">
+        <h1>Welcome, {{ user }}!</h1>
+        <p><strong>Part 1 flag:</strong> <code>deadbeef{th3_b33f_1s_d34f}</code></p>
+
+        <h2>Product Lookup</h2>
+        <form method="GET">
+            <input name="product_id" type="text" placeholder="Enter product ID (e.g. 1)">
+            <input type="submit" value="Lookup">
+        </form>
+
+        {% if results %}
+        <div class="results">
+            {{ results|safe }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
