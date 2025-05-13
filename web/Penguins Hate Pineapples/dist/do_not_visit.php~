@@ -1,0 +1,6 @@
+<?php
+// developer backup, remember to obfuscate on production
+
+echo "<h2>The Forbidden Knowledge Lies Here</h2>";
+echo "<p hidden>RmxhZzogZGVhZGJlZWZ7cDNuR3UxbnNfZDNTM3J2M19iM3R0M3JfZlJ1MXR9</p>";
+?>
