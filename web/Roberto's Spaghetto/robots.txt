@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /g0_4a4y.html
+Allow: /
