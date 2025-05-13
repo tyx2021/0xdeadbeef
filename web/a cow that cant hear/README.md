@@ -1,3 +1,3 @@
 The beef is no longer dead, merely deaf.
 
-insert link here or smth i forgor
+Go to `http://159.223.73.72:3124`
