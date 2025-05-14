@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bro Visiting</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>{{ message }}</h1>
+        <p>Bro visited his site lmao</p>
+        <img src="{{ url_for('static', filename='bro.jpeg') }}" alt="bro image" style="max-width: 100%; border-radius: 12px; margin-top: 20px;">
+    </div>
+</body>
+</html>
