@@ -5,7 +5,7 @@ Baby Shark is swimming along a Transmission Control Protocol stream, labelled 5!
 
 From the hint, we can tell that the flag can be found in TCP (Transmission Control Protocol) stream 5.
 
-1. Filter tcp.stream eq 5
+1. Filter `tcp.stream eq 5`
 
 2. Follow TCP stream by right clicking any of the filtered packets and then Follow > TCP stream
 
