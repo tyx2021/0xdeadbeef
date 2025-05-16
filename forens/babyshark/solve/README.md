@@ -7,10 +7,10 @@ From the hint, we can tell that the flag can be found in TCP (Transmission Contr
 
 1. Filter `tcp.stream eq 5`
 
-2. Follow TCP stream by right clicking any of the filtered packets and then Follow > TCP stream
+2. Follow TCP stream by right clicking any of the filtered packets and then `Follow > TCP stream`
 
-3. The flag is found in the stream, but it is encoded: Lbhe synt vf PGS{onol_funex_qbbqbbqbb}
+3. The flag is found in the stream, but it is encoded: `Lbhe synt vf PGS{onol_funex_qbbqbbqbb}`
 
-4. Since the flag is a basic Caesar's Cipher (ROT13), we can use CyberChef or anything to decode it (eg. ROT13(true,true,false,13) in CyberChef)
+4. Since the flag is a basic Caesar's Cipher (ROT13), we can use CyberChef or anything to decode it (eg. `ROT13(true,true,false,13)` in CyberChef)
 
-**Flag**: Your flag is CTF{baby_shark_dodododoo}
+**Flag**: `Your flag is CTF{baby_shark_dodododoo}`
