@@ -10,7 +10,7 @@ Like echoes penned in secret verse.
 
 A key once simple, now disguised,  
 Its letters base64 revised.  
-From a to z, let numbers rise,  
+From 'a' to 'l', let numbers rise,  
 To weave the order, linewise ties.  
 
 Now bind them close, in ordered frame,  
