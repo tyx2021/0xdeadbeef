@@ -1,6 +1,6 @@
 # Shrimp Fried Rice
 > You're telling me a shrimp fried this rice???
-* [shrimpfriedrice.pcapng](./shrimpfriedrice.pcapng)
+* [shrimpfriedrice.pcap](./shrimpfriedrice.pcap)
 
 ## Problem
 Shrimp has just opened his new Restaurant named Base-64!
