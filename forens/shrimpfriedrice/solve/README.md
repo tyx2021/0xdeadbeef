@@ -11,8 +11,8 @@ Can you ignore the red herrings, and find the shrimple flag?
 2. After searching through the file we find many DNS requests for various subdomains of `reddshrimpandherring.com`. This appears to be the traffic we are looking for.
 3. A lot of the DNS queries have a destination of 8.8.8.8. However, a subset have a destination for 18.217.1.57, which stands out like a **red** shrimp.
 4. We can apply the filter `dns && ip.dst==18.217.1.57` to only see DNS requests to this IP address. 
-5. If we extract each subdomain (everything before .reddshrimpandherring.com) and append them in the order they appear, we get: `ZGVhZGJlZWZ7c28gYSA1aHIxbXAgZnIxM2QgdGgxcyByMWMzP30=`
-6. Since Shrimp's restaurant is named Base-64 ( all his food would be encoded in base64), we can decode the string as base64 to obtain the flag.
+5. If we extract each subdomain (everything before .reddshrimpandherring.com) and append them in the order they appear, we get: `ZGVhZGJlZWZ7c28gYSA1aHIxbXAgZnIxM2QgdGgxcyByMWMzP30=`.
+6. Since Shrimp's restaurant is named Base-64 (all his food would be encoded in base64), we can decode the string as base64 to obtain the flag.
 
 **Flag**: `deadbeef{so a 5hr1mp fr13d th1s r1c3?}`
 
