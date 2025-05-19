@@ -1,22 +1,22 @@
-A scrambled tale of secrets deep,  
-Twelve lines reversed, no time for sleep.  
-The cipher sings in fractured rhyme,  
-Its order lost, obscured by time.  
+A string concealed in moonlit shade,  
+With slashes, plusses deftly laid.  
+Decode the veil, let bytes reveal,  
+The whispered truth the glyphs conceal.  
 
-A key you hold — just letters plain,  
-But each conceals a numbered chain.  
-From 'a' to 'l', their values lie,  
-To guide the pieces you must try.  
+Now split the stream in trios neat,  
+Each line a rhythm, each beat complete.  
+Twelve fragments wait in cloaks reversed,  
+Like echoes penned in secret verse.  
 
-Look not at words, but how they bend,  
-Each line reversed from start to end.  
-Then follow paths the key reveals,  
-To trace the truth the flag conceals.  
+A key once simple, now disguised,  
+Its letters base64 revised.  
+From a to z, let numbers rise,  
+To weave the order, linewise ties.  
 
-Combine the strings as orders change,  
-A simple shift, a subtle range.  
-And when it’s done, reverse once more —  
-The flag awaits you at the door.  
+Now bind them close, in ordered frame,  
+Restore the pulse, reveal the name.  
+The flag you seek begins to shine—  
+A riddle cracked, one verse, one line.   
 
 Encrypted text: X0YwX3NpMHJnfTMzZWhUUkh0ZWJkX2dhX1B1bGZfYWVke2Zl  
 key: jdhlakfcibeg
