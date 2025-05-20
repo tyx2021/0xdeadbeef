@@ -1,7 +1,7 @@
 # Solve
 > wire shark doo doo doo doo doo doo
 
-Baby Shark is swimming along a Transmission Control Protocol stream, labelled 5! Can you find the flag?
+Baby Shark is swimming along a Transmission Control Protocol stream! Can you find the flag?
 
 From the hint, we can tell that the flag can be found in TCP (Transmission Control Protocol) stream 5.
 
