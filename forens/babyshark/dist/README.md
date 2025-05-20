@@ -3,4 +3,4 @@
 * [babyshark.pcap](./babyshark.pcap)
 
 ## Problem
-Baby Shark is swimming along a Transmission Control Protocol stream, labelled 5! Can you find the flag?
+Baby Shark is swimming along a Transmission Control Protocol stream! Can you find the flag?
