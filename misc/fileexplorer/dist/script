@@ -2,7 +2,7 @@
 
 password=$(<password.txt)
 
-flag="deadbeef{Sk1b1d1_f1l35}"
+flag="deadbeef{redacted}"
 
 if [ "$password" = "password" ]; then
     echo "$flag"
