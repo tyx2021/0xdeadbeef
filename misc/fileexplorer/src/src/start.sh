@@ -1,2 +1,3 @@
 cd /ctf
-python3 server.py
+chmod -w backup.txt
+/bin/sh
