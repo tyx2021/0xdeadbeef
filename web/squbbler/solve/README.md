@@ -17,7 +17,7 @@ the idea is
 3) if we see that the program spent a long time thinking, we know that the character we guessed is correct
 4) repeat for all characters in the flag
 
-the challenge states that the flag only consists of curly braces, lowercase alphabets, and numbers, so our alphabet looks like this
+the challenge states that the flag only consists of curly braces, underscores, lowercase alphabets, and numbers, so our alphabet looks like this
 
 ```
 abcdefghijklmnopqrstuvwxyz1234567890{}
